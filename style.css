@@ -1,0 +1,58 @@
+body{
+    height: 100vh;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    border: 1.5px solid  black;
+    width: 300px;
+    margin: 0 auto;
+    height: 530px;
+    box-shadow: 4px 4px 30px rgb(0, 0 , 0 , 0.3);
+    border-radius: 12px;
+    overflow: hidden;
+}
+form input{
+    width: 94%;
+    height: 150px;
+    border: none;
+    border-radius: 12px;
+    font-size: 2rem ;
+    padding: 1rem;
+    color: white;
+    background-color: black;
+    text-align: right;
+    pointer-events: none;
+}
+button{
+    width: 60px;
+    height: 52px;
+    font-size: 22px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    flex: 0 0 22%;
+    margin: 5px 0 ;
+}
+.buttonbtn{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    background-color:lightcyan;
+}
+.clear{
+    background-color: red;
+}
+.equalto{
+    background-color: greenyellow;
+}
+.btn{
+    background-color:orange;
+}
+.del{
+    background-color: deepskyblue;
+}
